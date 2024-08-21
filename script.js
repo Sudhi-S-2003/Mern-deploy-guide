@@ -33,5 +33,5 @@ function initializeMenuToggle() {
 }
 
 // Load header and footer
-loadHTML('Header.html', 'header', initializeMenuToggle);
-loadHTML('Footer.html', 'footer');
+loadHTML('./Header.html', 'header', initializeMenuToggle);
+loadHTML('./Footer.html', 'footer');
